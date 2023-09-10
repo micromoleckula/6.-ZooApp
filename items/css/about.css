@@ -1,0 +1,46 @@
+.about {
+  min-height: 100vh;
+  background-image: url(../images/about-bg.png);
+  background-repeat: no-repeat;
+  background-size:auto;
+}
+
+.about__container {
+  margin: 0 auto;
+  max-width: 1700px;
+}
+
+.about__title {
+  font-size: 89px;
+  font-weight: 900;
+  color: white;
+  max-width: 1200px;
+  padding: 100px 0 0 300px;
+}
+
+.about__button {
+  display: flex;
+  border-radius: 3px;
+  background: var(--base_gradient, linear-gradient(107deg, #4BD8B5 -14.32%, #49D6DF 100.68%));
+  border: 0;
+}
+
+.about__button p {
+  padding: 18px 40px 18px 40px;
+  font-weight: 900;
+  font-size: 18px;
+  color: white;
+}
+
+
+
+.about__button-swiper {
+  display: flex;
+}
+
+.swiper {
+  position:inherit;
+  left: 270px;
+  width: 800px;
+  height: 352px;
+}

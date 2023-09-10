@@ -3,11 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./items/css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Raleway:wght@600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
   <title>Zoo Online</title>
 </head>
 <body>
 
+<!-- header start -->
 
-    
+<header class="header">
+  <div class="header__container">
+    <div class="header__all">
+      <a href="/index.html" class="logo">
+        <h1 class="logo-top">ZOO</h1>
+        <h1 class="logo-bottom">online</h1>
+      </a>
+      <nav class="header__list">
+        <ul class="header__list-items">
+          <li><a href="/index.html" class="header__list-item list-item-about">About</a></li>
+          <li><a href="/zoos.html" class="header__list-item">Zoos</a></li>
+          <li><a href="/map.html" class="header__list-item">Map</a></li>
+          <li><a href="/index.html" class="header__list-item">Contact Us</a></li>
+          <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp?node-id=101%3A2226&mode=dev" class="header__list-item">Design</a></li>
+        </ul>
+      </nav>
+      <div class="switch">
+        <input type="checkbox" class="checkbox">
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- header end -->
+
+<!-- about start -->
+
+<section class="about">
+  <div class="about__container">
+    <h1 class="about__title">
+      Watch your favorite animal online
+    </h1>
+    <div class="about__button-swiper">
+    <div>
+      <a href="/zoos.html">
+          <button class="about__button">
+            <img src="/items/images/svg/play-btn.svg" alt="play">
+            <p>watch online</p>
+          </button>
+      </a>
+    </div>
+
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="/items/images/about-eagle.jpg" alt="eagle"></div>
+        <div class="swiper-slide"><img src="/items/images/about-panda.jpg" alt="panda"></div>
+        <div class="swiper-slide"><img src="/items/images/about-gorila.jpg" alt="gorila"></div>
+        <div class="swiper-slide"><img src="/items/images/about-aligator.jpg" alt="aligator"></div>
+        <div class="swiper-slide"><img src="/items/images/about-fox.jpg" alt="fox"></div>
+        <div class="swiper-slide"><img src="/items/images/about-sloth.jpg" alt="sloth"></div>
+        <div class="swiper-slide"><img src="/items/images/about-elephant.jpg" alt="elaphant"></div>
+        <div class="swiper-slide"><img src="/items/images/about-leopard.jpg" alt="leopard"></div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+  </div>
+    <ul class="about__social">
+      <li style="padding-bottom: 15px;">
+        <a href="https://instagram.com">
+          <img src="/items/images/svg/instagram.svg" alt="inst">
+        </a>
+      </li>
+      <li style="padding-bottom: 15px;">
+        <a href="https://twitter.com/">
+          <img src="/items/images/svg/twiter.svg" alt="twitter">
+        </a>
+      </li>
+      <li>
+        <a href="https://youtube.com">
+          <img src="/items/images/svg/youtube.svg" alt="youtube">
+        </a>
+      </li>
+    </ul>
+
+  </div>
+</section>
+
+<!-- about end -->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="/js/swiper.js"></script>
 </body>
 </html>
