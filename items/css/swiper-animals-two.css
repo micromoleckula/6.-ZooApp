@@ -1,0 +1,12 @@
+.animals-two-container {
+  margin: auto;
+  max-width: 1000px;
+}
+
+.swiper-mavpa {
+  height: 500px;
+}
+
+.animals-two-container img{
+  max-height: 300px;
+}

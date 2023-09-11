@@ -1,0 +1,10 @@
+@media screen and (max-width: 1100px) {
+  .about__button-swiper {
+    flex-direction: column;
+  }
+
+  .swiper {
+    margin-top: 20px;
+    left: 50px;
+  }
+}

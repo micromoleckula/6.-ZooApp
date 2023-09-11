@@ -1,5 +1,10 @@
 @import url(./header.css);
 @import url(./about.css);
+@import url(./animals-swiper.css);
+@import url(./how-it-work.css);
+@import url(./swiper-animals-two.css);
+
+@import url(./adaptiv.css);
 
 html {
   box-sizing: border-box;
@@ -13,7 +18,6 @@ body {
   color: #333333;
 
 }
-
 
 *,
 *::before,
@@ -37,11 +41,5 @@ img {
 .container {
   margin: 0 auto;
   max-width: 920px;
-  padding: 0 10px;
-}
-
-.big-container {
-  margin: 0 auto;
-  max-width: 1220px;
   padding: 0 10px;
 }
