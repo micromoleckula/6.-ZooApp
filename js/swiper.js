@@ -1,13 +1,12 @@
-const swiper = new Swiper('.swiper', {
-  loop: true,
-  slidesPerView: 4,
+new Swiper('.about-swiper', {
+  slidesPerView: 1,
 
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination',
+    el: '.about-swiper-pagination',
   },
   // And if we need scrollbar
   scrollbar: {
-    el: '.swiper-scrollbar',
+    el: '.about-swiper-scrollbar',
   },
 });

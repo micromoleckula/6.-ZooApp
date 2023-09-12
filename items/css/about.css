@@ -36,16 +36,12 @@
 
 .about__button-swiper {
   display: flex;
+  min-width: 0;
 }
 
-.swiper-pagination {
-  color: white;
-}
-
-.swiper {
-  left: 270px;
-  width: 600px;
-  height: 300px;
+.about-swiper {
+  max-width: 30px;
+  max-height: 100px;
 }
 
 .about__social {
