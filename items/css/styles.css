@@ -5,6 +5,8 @@
 @import url(./swiper-animals-two.css);
 @import url(./circle.css);
 
+@import url(./footer.css);
+
 @import url(./adaptiv.css);
 
 html {
@@ -37,10 +39,4 @@ li {
 
 img {
   max-width: 100%;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 920px;
-  padding: 0 10px;
 }
