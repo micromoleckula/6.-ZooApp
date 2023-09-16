@@ -30,8 +30,8 @@
 }
 
 .circle {
-  min-width: 245px;
-  min-height: 245px;
+  width: 245px;
+  height: 245px;
   border-radius: 50%;
   border: 2px solid #5af8f8;
   padding-bottom: 60px;
