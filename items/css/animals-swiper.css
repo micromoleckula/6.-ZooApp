@@ -24,12 +24,14 @@
 }
 
 .button-animals {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 100px;
   min-width: 237px;
   padding: 18px 40px 18px 40px;
   font-weight: 900;
   font-size: 18px;
   color: white;
-  display: flex;
   border-radius: 3px;
   background: var(--base_gradient, linear-gradient(107deg, #4BD8B5 -14.32%, #49D6DF 100.68%));
   border-radius: 5px;
