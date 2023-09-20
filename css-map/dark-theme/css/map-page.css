@@ -1,4 +1,4 @@
-@import url(./map-pages-adaptiv.css);
+@import url(/css-map/map-pages-adaptiv.css);
 
 .map__pages {
   padding-top: 100px;
@@ -13,14 +13,14 @@
 .map__title {
   font-size: 48px;
   font-weight: 900;
-  color: #333;
+  color: #ffffff;
   text-align: center;
 }
 
 .map__title-paragraph {
   font-size: 14px;
   font-weight: 400;
-  color: #4f4f4f;
+  color: #ffffff;
   max-width: 790px;
   text-align: center;
   margin: auto;

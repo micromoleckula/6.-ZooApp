@@ -6,10 +6,11 @@
 @import url(./circle.css);
 @import url(./footer.css);
 @import url(./adaptiv.css);
+@import url(./map-page.css);
 
 html {
   box-sizing: border-box;
-  background: #333;
+  background: #464646;
 }
 
 body {
