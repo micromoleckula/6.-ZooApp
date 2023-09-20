@@ -1,0 +1,40 @@
+@media screen and (max-width: 1200px) {
+
+  .swiper__zoo-map-zebra {
+    display: none;
+  }
+
+  
+}
+
+@media screen and (max-width: 1000px) {
+  .swiper__zoo-map-lion {
+    display: none;
+  }
+
+  .swiper__zoo-map-elephant {
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 680px) {
+
+  .swiper__zoo-map-tiger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 620px) {
+
+  .swiper__zoo-map-eagle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .swiper__zoo-map-eagle {
+    display: none;
+  }
+}

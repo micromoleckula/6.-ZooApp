@@ -3,7 +3,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: white;
+  background: var(--Gray-1, #333);
+  box-shadow: 0px 4px 8px 0px rgba(44, 101, 77, 0.08);
   z-index: 10;
 }
 
@@ -39,7 +40,7 @@
 }
 
 .header__list-item {
-  color: #333;
+  color: #fff;
   margin-right: 60px;
   font-weight: 400;
   transition: .2s;

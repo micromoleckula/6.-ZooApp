@@ -1,0 +1,30 @@
+.how-it-work {
+  background: #4F4F4F;
+}
+
+.how-it-work-container {
+  margin: auto;
+  max-width: 1230px;
+  padding: 0 10px;
+}
+
+.how__cards {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.how__card {
+  max-width: 380px;
+}
+
+.how-card-img {
+  display: block;
+  margin: auto;
+}
+
+.how-card-title {
+  display: flex;
+  justify-content: center;
+}

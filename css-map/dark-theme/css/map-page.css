@@ -1,0 +1,56 @@
+@import url(./map-pages-adaptiv.css);
+
+.map__pages {
+  padding-top: 100px;
+}
+
+.wrapper-map {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.map__title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #333;
+  text-align: center;
+}
+
+.map__title-paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  color: #4f4f4f;
+  max-width: 790px;
+  text-align: center;
+  margin: auto;
+}
+
+.swiper__zoo-map {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.map__button {
+  min-width: 237px;
+  padding: 18px 40px 18px 40px;
+  font-weight: 900;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  border-radius: 3px;
+  background: var(--base_gradient, linear-gradient(107deg, #4BD8B5 -14.32%, #49D6DF 100.68%));
+  border-radius: 5px;
+  border: 0;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.a-map-button {
+  display: flex;
+  margin: 0 auto;
+  width: 240px;
+  height: 63px;
+  margin-bottom: 100px;
+}

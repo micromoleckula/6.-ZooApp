@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./items/css/styles.css">
-  <link rel="stylesheet" href="./css-map/map-page.css">
+  <link rel="stylesheet" href="/css-map/css/styles.css">
+  <link rel="stylesheet" href="/css-map/dark-theme/css/light-theme.css" id="theme">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Raleway:wght@600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
   <title>Zoo Online</title>
 </head>
@@ -15,21 +15,41 @@
 <header class="header">
   <div class="header__container">
     <div class="header__all">
-      <a href="/index.html" class="logo">
-        <h1 class="logo-top">ZOO</h1>
-        <h1 class="logo-bottom">online</h1>
-      </a>
+      <div class="logo-menu-btn">
+        <a href="/index.html" class="logo">
+          <h1 class="logo-top">ZOO</h1>
+          <h1 class="logo-bottom">online</h1>
+        </a>
+      
+        <button class="menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
       <nav class="header__list">
         <ul class="header__list-items">
           <li><a href="/index.html" class="header__list-item">About</a></li>
           <li><a href="/zoos.html" class="header__list-item">Zoos</a></li>
-          <li><a href="/map.html" class="header__list-item list-item-map">Map</a></li>
+          <li><a href="/map.html" class="header__list-item  list-item-about">Map</a></li>
           <li><a href="/index.html" class="header__list-item">Contact Us</a></li>
           <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp?node-id=101%3A2226&mode=dev" class="header__list-item">Design</a></li>
         </ul>
+
+        <!-- burger -->
+
+        <ul class="menu-mobile">
+
+          <li><a href="/index.html" class="header__list-item">About</a></li>
+          <li><a href="/zoos.html" class="header__list-item">Zoos</a></li>
+          <li><a href="/map.html" class="header__list-item list-item-about">Map</a></li>
+          <li><a href="/index.html" class="header__list-item">Contact Us</a></li>
+          <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp?node-id=101%3A2226&mode=dev" class="header__list-item">Design</a></li>
+
+        </ul>
       </nav>
       <div class="switch">
-        <input type="checkbox" class="checkbox">
+        <input type="checkbox" class="checkbox" id="switchMode">
       </div>
     </div>
   </div>
@@ -62,21 +82,23 @@
       <img src="/css-map/images/svg/left-arrow.svg" alt="left-arrow">
       <img src="/css-map/images/svg/gorilla.svg" alt="gorrila">
       <img src="/css-map/images/svg/panda.svg" alt="panda">
-      <img src="/css-map/images/svg/aligator.svg" alt="aligator">
-      <img src="/css-map/images/svg/eagle.svg" alt="eagle">
-      <img src="/css-map/images/svg/tiger.svg" alt="tiger">
-      <img src="/css-map/images/svg/elephant.svg" alt="elephant">
-      <img src="/css-map/images/svg/lion.svg" alt="lion">
-      <img src="/css-map/images/svg/zebra.svg" alt="zebra">
+      <img src="/css-map/images/svg/aligator.svg" alt="aligator" class="swiper__zoo-map-aligator">
+      <img src="/css-map/images/svg/eagle.svg" alt="eagle" class="swiper__zoo-map-eagle">
+      <img src="/css-map/images/svg/tiger.svg" alt="tiger" class="swiper__zoo-map-tiger">
+      <img src="/css-map/images/svg/elephant.svg" alt="elephant" class="swiper__zoo-map-elephant">
+      <img src="/css-map/images/svg/lion.svg" alt="lion" class="swiper__zoo-map-lion">
+      <img src="/css-map/images/svg/zebra.svg" alt="zebra" class="swiper__zoo-map-zebra">
       <img src="/css-map/images/svg/right-arrow.svg" alt="right-arrow">
     </div>
 
     <img src="/css-map/images/map.png" alt="map" style="padding-top: 100px; padding-bottom: 30px;">
-    <a href="/zoos.html" style="width: 240px;">
-      <button href="/zoos.html" class="button-animals">
-        watch online
-      </button>
-    </a>
+    <div class="a-map-button">
+      <a href="/zoos.html">
+        <button href="/zoos.html" class="map__button">
+          watch online
+        </button>
+      </a>
+    </div>
   </div>
 </section>
 
@@ -200,5 +222,7 @@
 </footer>
 
 <!-- footer end -->
+<script src="/css-map/theme-map.js"></script>
+<script src="/js/burger.js"></script>
 </body>
 </html>
