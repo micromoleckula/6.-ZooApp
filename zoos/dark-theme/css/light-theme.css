@@ -1,12 +1,16 @@
 @import url(./header.css);
-@import url(./map-page-night.css);
+@import url(./about.css);
+@import url(./animals-swiper.css);
+@import url(./how-it-work.css);
+@import url(./swiper-animals-two.css);
+@import url(./circle.css);
 @import url(./footer.css);
-
 @import url(./adaptiv.css);
+@import url(./map-page.css);
 
 html {
   box-sizing: border-box;
-  background: #ffffff;
+  background: #464646;
 }
 
 body {
@@ -14,7 +18,7 @@ body {
   font-size: 14px;
   line-height: 1.2;
   font-weight: 400;
-  color: rgb(0, 0, 0);
+  color: #ffffff;
 }
 
 *,
