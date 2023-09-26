@@ -1,6 +1,8 @@
 @import url(./header.css);
 @import url(./footer.css);
+@import url(./video.css);
 @import url(./adaptiv.css);
+@import url(./adaptiv-zoos.css);
 
 html {
   box-sizing: border-box;

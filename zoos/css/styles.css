@@ -2,6 +2,7 @@
 @import url(./footer.css);
 @import url(./video.css);
 @import url(./adaptiv.css);
+@import url(./adaptiv-zoos.css);
 
 html {
   box-sizing: border-box;
@@ -14,6 +15,8 @@ body {
   line-height: 1.2;
   font-weight: 400;
   color: rgb(0, 0, 0);
+  padding: 0;
+  margin: 0;
 }
 
 *,
