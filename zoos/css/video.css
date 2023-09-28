@@ -1,5 +1,6 @@
 .video {
   display: flex;
+  padding-right: 10px;
 }
 
 .video__container {
